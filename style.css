@@ -84,9 +84,11 @@ body::-webkit-scrollbar {
 .menu-item {
     color: black;
     text-decoration: none;
+    cursor: pointer;
 }
 
-.menu-item:hover {
+.active, .menu-item:hover {
+    color: #873e23;
     transition: 50ms;
     transition-timing-function: ease-in-out;
     font-size: large;
