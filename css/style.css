@@ -12,6 +12,10 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+a {
+    color: black;
+}
+
 #content-index {
     display: flex;
     align-items: center;
@@ -85,12 +89,16 @@ body::-webkit-scrollbar {
 }
 
 .active,
-.menu-item:hover,
-.index-title:hover {
+.menu-item:hover {
     color: #873e23;
     transition: 50ms;
     transition-timing-function: ease-in-out;
-    font-size: 2em;
+    font-size: 1.5em;
+}
+
+.active-index,
+.index-title:hover {
+    color: #873e23;
 }
 
 
@@ -116,7 +124,7 @@ body::-webkit-scrollbar {
 
 .pic-sm:hover,
 .pic-long:hover {
-    box-shadow: 1vw 1vw;
+    box-shadow: 1vw 1vw #5F388C;
 }
 
 .middle-container {
