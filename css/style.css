@@ -75,6 +75,7 @@ a {
 }
 
 .menu-group {
+    font-size: 1.3vw;
     display: flex;
     justify-content: space-between;
     gap: 1vw;
@@ -165,5 +166,14 @@ a {
 
     .pic-sm {
         height: 30vw;
+    }
+
+    .pic {
+        height: auto;
+        width: 100%;
+    }
+    
+    .middle-container {
+        width: 70%;
     }
 }
