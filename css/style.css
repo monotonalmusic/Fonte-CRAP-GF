@@ -12,8 +12,6 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-
-
 #content-index {
     display: flex;
     align-items: center;
@@ -92,7 +90,7 @@ body::-webkit-scrollbar {
     color: #873e23;
     transition: 50ms;
     transition-timing-function: ease-in-out;
-    font-size: 150%;
+    font-size: 2em;
 }
 
 
